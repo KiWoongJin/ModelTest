@@ -21,6 +21,7 @@
 		00673858187E337D00AA22F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0067383A187E337D00AA22F9 /* UIKit.framework */; };
 		00673860187E337D00AA22F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0067385E187E337D00AA22F9 /* InfoPlist.strings */; };
 		00673862187E337D00AA22F9 /* ModelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00673861187E337D00AA22F9 /* ModelTestTests.m */; };
+		0067386D187E34A700AA22F9 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067386C187E34A700AA22F9 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0067385D187E337D00AA22F9 /* ModelTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModelTestTests-Info.plist"; sourceTree = "<group>"; };
 		0067385F187E337D00AA22F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00673861187E337D00AA22F9 /* ModelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelTestTests.m; sourceTree = "<group>"; };
+		0067386B187E34A700AA22F9 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		0067386C187E34A700AA22F9 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				0067384C187E337D00AA22F9 /* ViewController.m */,
 				0067384E187E337D00AA22F9 /* Images.xcassets */,
 				0067383D187E337D00AA22F9 /* Supporting Files */,
+				0067386B187E34A700AA22F9 /* Model.h */,
+				0067386C187E34A700AA22F9 /* Model.m */,
 			);
 			path = ModelTest;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				0067384D187E337D00AA22F9 /* ViewController.m in Sources */,
 				00673847187E337D00AA22F9 /* AppDelegate.m in Sources */,
 				00673843187E337D00AA22F9 /* main.m in Sources */,
+				0067386D187E34A700AA22F9 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
